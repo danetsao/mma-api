@@ -15,7 +15,6 @@ def get_athlete_data(name_postfix: str):
 
     athlete_data = soup.find_all("div", class_='stats-records stats-records__container stats-records--one-column')
 
-
     athlete_data = athlete_data[0].text.split()
 
     wins_by_knockout = athlete_data[0]
@@ -85,12 +84,15 @@ def get_athlete_data(name_postfix: str):
 
     win_methods = soup.find_all("div", class_="c-stat-3bar__value")
 
+    print(win_methods)
+
     wins_by_knockout = win_methods[3].text.split()[0]
-    wins_by_submission = win_methods[4].text.split()[0]
-    wins_by_decision = win_methods[5].text.split()[0]
+    wins_by_decision = win_methods[4].text.split()[0]
+    wins_by_submission = win_methods[5].text.split()[0]
 
     # Past fights
     fight_data = get_fight_data(name_postfix)
+
 
     #print all the stats and make sure we are right
     print(f'Wins by knockout: {wins_by_knockout}')
@@ -152,9 +154,47 @@ def get_athlete_data(name_postfix: str):
         'wins_by_submission': wins_by_submission
     }
 
-def get_fight_data(name_postfix: str):
 
-    return {}
+def get_fight_data(name_postfix: str):
+    print('Getting fights for ' + name_postfix)
+    url = 'https://www.ufc.com/athlete/' + name_postfix 
+
+    response = requests.get(url)
+
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    fights = soup.find_all("div", class_="c-card-event--athlete-results__info")
+
+    list_of_fights = []
+
+    for i, fight in enumerate(fights):
+        
+        winner_data = (soup.find_all("div", class_="c-card-event--athlete-results__red-image"))[i]
+
+        winner_link = winner_data
+
+        #for d in winner_link:
+            #print(d)
+
+        #print(winner_link)
+
+        current_fight = fight.text.split()
+        opponent = current_fight[2]
+        current_fight_result = fight.find_all("div", class_="c-card-event--athlete-results__results")
+        if len(current_fight_result) == 0:
+            continue
+        for r in current_fight_result:
+            current_fight_result = r.text.split()
+
+        round = current_fight_result[1]
+        time = current_fight_result[3]
+        method = current_fight_result[5]
+
+        print(f'Opponent: {opponent}')
+        print(f'Round: {round}')
+        print(f'Time: {time}')
+        print(f'Method: {method}')
+    return list_of_fights
 
 def get_athlete_rankings():
     """
@@ -212,4 +252,4 @@ def get_athlete_rankings():
 
 
 if __name__ == "__main__":
-    get_athlete_rankings()
+    get_athlete_data('jon-jones')
