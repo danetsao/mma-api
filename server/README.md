@@ -3,6 +3,8 @@
 This is the API documentation for the UFC Athletes API.
 The API provides information on UFC athletes and their fights.
 
+## Read the documentation here or visit the demo (website)[google.com] when finished
+
 ## Authentication
 
 All endpoints require authentication. You must include a bearer token in the 'Authorization' header of each request.
