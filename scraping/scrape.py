@@ -24,7 +24,6 @@ def get_athlete_data(name_postfix: str):
     except IndexError:
         first_round_finishes = -1
 
-    
 
     deep_stats = soup.find_all("dd", class_="c-overlap__stats-value")
     try:
@@ -151,7 +150,8 @@ def get_athlete_data(name_postfix: str):
         'sig_strike_leg': sig_strike_leg,
         'wins_by_knockout': wins_by_knockout,
         'wins_by_decision': wins_by_decision,
-        'wins_by_submission': wins_by_submission
+        'wins_by_submission': wins_by_submission,
+        'fights': fight_data
     }
 
 
