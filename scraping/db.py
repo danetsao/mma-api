@@ -4,17 +4,23 @@ import requests
 import psycopg2
 from scrape import *
 
+# Database connection info
 HOST = "localhost"
 USERNAME = "postgres"
 PASSWORD = "root"
 DATABASE = "data_db"
 
-db = psycopg2.connect(host=HOST, user=USERNAME, password=PASSWORD, database=DATABASE)
-cursor = db.cursor()
+# Main function
+def main():
+    db = psycopg2.connect(host=HOST, user=USERNAME, password=PASSWORD, database=DATABASE)
+    cursor = db.cursor()
 
-athlete_data = get_athlete_rankings()
+    athlete_data = get_athlete_rankings()
 
-# Config and add to database
+    # Config and add to database
+
+    db.commit()
 
 
-db.commit()
+if __name__ == "__main__":
+    main()

@@ -9,3 +9,6 @@ npm-debug.log
 
 # Ignore todo list file
 .todo.txt
+
+# Other
+scraping/scraped_data_sample.txt

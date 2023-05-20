@@ -8,6 +8,7 @@ from waiting import wait
 def get_athlete_data(name_postfix: str):
     print('Getting data for ' + name_postfix)
     url = 'https://www.ufc.com/athlete/' + name_postfix 
+    print(url)
     response = requests.get(url)
 
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -19,20 +20,36 @@ def get_athlete_data(name_postfix: str):
 
     wins_by_knockout = athlete_data[0]
     wins_by_submission = athlete_data[4]
-    first_round_finishes = athlete_data[8]
+    try:    
+        first_round_finishes = athlete_data[8]
+    except IndexError:
+        first_round_finishes = -1
 
     
 
     deep_stats = soup.find_all("dd", class_="c-overlap__stats-value")
-    sig_strikes_landed = int(deep_stats[0].text)
-    sig_strikes_attempted = int(deep_stats[1].text)
-    striking_accuracy = int(sig_strikes_landed) / int(sig_strikes_attempted)
+    try:
+        sig_strikes_landed = float(deep_stats[0].text)
+    except ValueError:
+        sig_strikes_landed = -1
+    try:
+        sig_strikes_attempted = float(deep_stats[1].text)
+    except ValueError:
+        sig_strikes_attempted = -1
+    try:
+        striking_accuracy = float(sig_strikes_landed) / float(sig_strikes_attempted)
+    except ValueError:
+        striking_accuracy = -1
+
     # rounded two decimal places
     striking_accuracy = round(striking_accuracy, 2)
 
     take_downs_landed = deep_stats[2].text
     take_downs_attempted = deep_stats[3].text
-    take_down_accuracy = int(take_downs_landed) / int(take_downs_attempted) * 100 
+    try:
+        take_down_accuracy = float(take_downs_landed) / float(take_downs_attempted) * 100 
+    except ValueError:
+        take_down_accuracy = -1
     # rounded two decimal places
     take_down_accuracy = round(take_down_accuracy, 2)
 
@@ -73,7 +90,7 @@ def get_athlete_data(name_postfix: str):
     wins_by_decision = win_methods[5].text.split()[0]
 
     # Past fights
-
+    fight_data = get_fight_data(name_postfix)
 
     #print all the stats and make sure we are right
     print(f'Wins by knockout: {wins_by_knockout}')
@@ -103,7 +120,41 @@ def get_athlete_data(name_postfix: str):
     print(f'Wins by decision: {wins_by_decision}')
     print(f'Wins by submission: {wins_by_submission}')
 
-    return {'wins':'1'}
+
+    # config the vairbles into json format
+
+    return {
+        'wins_by_knockout': wins_by_knockout,
+        'wins_by_submission': wins_by_submission,
+        'first_round_finishes': first_round_finishes,
+        'sig_strikes_landed': sig_strikes_landed,
+        'sig_strikes_attempted': sig_strikes_attempted,
+        'striking_accuracy': striking_accuracy,
+        'take_downs_landed': take_downs_landed,
+        'take_downs_attempted': take_downs_attempted,
+        'take_down_accuracy': take_down_accuracy,
+        'sig_strikes_landed_per_min': sig_strikes_landed_per_min,
+        'sig_strikes_absorbed_per_min': sig_strikes_absorbed_per_min,
+        'take_down_avg_per_15_min': take_down_avg_per_15_min,
+        'submission_avg_per_15_min': submission_avg_per_15_min,
+        'sig_strikes_defense': sig_strikes_defense,
+        'take_down_defense': take_down_defense,
+        'kockdown_avg': kockdown_avg,
+        'average_fight_time': average_fight_time,
+        'sig_strikes_standing': sig_strikes_standing,
+        'sig_strikes_clinch': sig_strikes_clinch,
+        'sig_strikes_ground': sig_strikes_ground,
+        'sig_strike_head': sig_strike_head,
+        'sig_strike_body': sig_strike_body,
+        'sig_strike_leg': sig_strike_leg,
+        'wins_by_knockout': wins_by_knockout,
+        'wins_by_decision': wins_by_decision,
+        'wins_by_submission': wins_by_submission
+    }
+
+def get_fight_data(name_postfix: str):
+
+    return {}
 
 def get_athlete_rankings():
     """
@@ -135,6 +186,7 @@ def get_athlete_rankings():
             print(name)
             rank_change = cells[2].text
             name_postfix = name.lower().replace(' ', '-').replace('.', '')
+            name_postfix = name_postfix[0:len(name_postfix)-1]
             current_athlete_data = {}
             try:
                 current_athlete_data = wait(lambda: get_athlete_data(name_postfix), timeout_seconds=10, waiting_for="something to be ready")
@@ -160,4 +212,4 @@ def get_athlete_rankings():
 
 
 if __name__ == "__main__":
-    get_athlete_data('aljamain-sterling')
+    get_athlete_rankings()
