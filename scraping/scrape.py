@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from waiting import wait
 
 
-def get_athlete_data(name_postfix: str):
+def get_athlete_data(name_postfix: str, print_data: bool = False) -> dict:
     print(f"Getting data for {name_postfix}")
     url = 'https://www.ufc.com/athlete/' + name_postfix 
     response = requests.get(url)
@@ -89,37 +89,37 @@ def get_athlete_data(name_postfix: str):
     wins_by_submission = win_methods[5].text.split()[0]
 
     # Past fights
-    fight_data = get_fight_data(name_postfix)
+    fight_data = get_fight_data(name_postfix, print_data)
 
-    """
-    #print all the stats and make sure we are right
-    print(f'Wins by knockout: {wins_by_knockout}')
-    print(f'Wins by submission: {wins_by_submission}')
-    print(f'First round finishes: {first_round_finishes}')
-    print(f'Significant strikes landed: {sig_strikes_landed}')
-    print(f'Significant strikes attempted: {sig_strikes_attempted}')
-    print(f'Striking accuracy: {striking_accuracy}')
-    print(f'Take downs landed: {take_downs_landed}')
-    print(f'Take downs attempted: {take_downs_attempted}')
-    print(f'Take down accuracy: {take_down_accuracy}')
-    print(f'Significant strikes landed per minute: {sig_strikes_landed_per_min}')
-    print(f'Significant strikes absorbed per minute: {sig_strikes_absorbed_per_min}')
-    print(f'Take down average per 15 minutes: {take_down_avg_per_15_min}')
-    print(f'Submission average per 15 minutes: {submission_avg_per_15_min}')
-    print(f'Significant strikes defense: {sig_strikes_defense}')
-    print(f'Take down defense: {take_down_defense}')
-    print(f'Kockdown average: {kockdown_avg}')
-    print(f'Average fight time: {average_fight_time}')
-    print(f'Significant strikes standing: {sig_strikes_standing}')
-    print(f'Significant strikes clinch: {sig_strikes_clinch}')
-    print(f'Significant strikes ground: {sig_strikes_ground}')
-    print(f'Significant strikes head: {sig_strike_head}')
-    print(f'Significant strikes body: {sig_strike_body}')
-    print(f'Significant strikes leg: {sig_strike_leg}')
-    print(f'Wins by KO/TKO: {wins_by_knockout}')
-    print(f'Wins by decision: {wins_by_decision}')
-    print(f'Wins by submission: {wins_by_submission}')
-    """
+    if print_data:
+        #print all the stats and make sure we are right
+        print(f'Wins by knockout: {wins_by_knockout}')
+        print(f'Wins by submission: {wins_by_submission}')
+        print(f'First round finishes: {first_round_finishes}')
+        print(f'Significant strikes landed: {sig_strikes_landed}')
+        print(f'Significant strikes attempted: {sig_strikes_attempted}')
+        print(f'Striking accuracy: {striking_accuracy}')
+        print(f'Take downs landed: {take_downs_landed}')
+        print(f'Take downs attempted: {take_downs_attempted}')
+        print(f'Take down accuracy: {take_down_accuracy}')
+        print(f'Significant strikes landed per minute: {sig_strikes_landed_per_min}')
+        print(f'Significant strikes absorbed per minute: {sig_strikes_absorbed_per_min}')
+        print(f'Take down average per 15 minutes: {take_down_avg_per_15_min}')
+        print(f'Submission average per 15 minutes: {submission_avg_per_15_min}')
+        print(f'Significant strikes defense: {sig_strikes_defense}')
+        print(f'Take down defense: {take_down_defense}')
+        print(f'Kockdown average: {kockdown_avg}')
+        print(f'Average fight time: {average_fight_time}')
+        print(f'Significant strikes standing: {sig_strikes_standing}')
+        print(f'Significant strikes clinch: {sig_strikes_clinch}')
+        print(f'Significant strikes ground: {sig_strikes_ground}')
+        print(f'Significant strikes head: {sig_strike_head}')
+        print(f'Significant strikes body: {sig_strike_body}')
+        print(f'Significant strikes leg: {sig_strike_leg}')
+        print(f'Wins by KO/TKO: {wins_by_knockout}')
+        print(f'Wins by decision: {wins_by_decision}')
+        print(f'Wins by submission: {wins_by_submission}')
+
 
     # config the vairbles into json format
 
@@ -154,7 +154,7 @@ def get_athlete_data(name_postfix: str):
     }
 
 
-def get_fight_data(name_postfix: str):
+def get_fight_data(name_postfix: str, print_data: bool):
     #print('Getting fights for ' + name_postfix)
     url = 'https://www.ufc.com/athlete/' + name_postfix 
 
@@ -207,17 +207,17 @@ def get_fight_data(name_postfix: str):
             time = current_fight_result[9]
             method = current_fight_result[11]
 
-        """
-        print(f'Opponent: {opponent}')
-        print(f'Win: {win}')
-        print(f'Round: {round}')
-        print(f'Time: {time}')
-        print(f'Method: {method}')
-        print(f'Month: {month}')
-        print(f'Day: {day}')
-        print(f'Year: {year}')
-        print()
-        """
+        if print_data:
+            print(f'Opponent: {opponent}')
+            print(f'Win: {win}')
+            print(f'Round: {round}')
+            print(f'Time: {time}')
+            print(f'Method: {method}')
+            print(f'Month: {month}')
+            print(f'Day: {day}')
+            print(f'Year: {year}')
+            print()
+
 
         current_fight_json = {
             'opponent': opponent,
@@ -233,7 +233,7 @@ def get_fight_data(name_postfix: str):
         
     return list_of_fights
 
-def get_all_athletes():
+def get_all_athletes(print_data: bool = False):
     """
     Get the UFC athlete rankings from the UFC website.
     Currently prints top 15 athletes in each weight class, their ranking and their rank change.
@@ -264,12 +264,20 @@ def get_all_athletes():
             name_postfix = name.lower().replace(' ', '-').replace('.', '')
             name_postfix = name_postfix[0:len(name_postfix)-1]
             current_athlete_data = {}
+
+            if print_data:
+                print(f'Weightclass: {ranking_name}')
+                print(f'Name: {name}')
+                print(f'Rank: {rank}')
+                print(f'Rank Change: {rank_change}')
+
             try:
-                current_athlete_data = wait(lambda: get_athlete_data(name_postfix), timeout_seconds=10, waiting_for="something to be ready")
+                current_athlete_data = wait(lambda: get_athlete_data(name_postfix, print_data), timeout_seconds=10, waiting_for="something to be ready")
             except Exception as e:
                 print("Error: %s" % e)
 
             current_athlet_list = [ranking_name, name, rank, rank_change, current_athlete_data]
+
 
 
             list_of_athletes.append(current_athlet_list)
