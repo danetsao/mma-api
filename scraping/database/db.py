@@ -16,9 +16,10 @@ DATABASE = os.environ.get('DB_NAME')
 
 # Main function
 def main():
-    db = psycopg2.connect(host=HOST, user=USERNAME, password=PASSWORD, database=DATABASE)
-    cursor = db.cursor()
 
+
+    print('Getting all athletes...')
+    athlete_data = get_all_athletes()
 
     # Config and add to database
     # make an extremely basic query to test the connection, just insert a 1 and make a new table
