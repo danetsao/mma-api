@@ -19,14 +19,25 @@ def main():
 
 
     print('Getting all athletes...')
-    athlete_data = get_all_athletes()
+    athlete_data = get_athlete_data('leon-edwards')
 
-    # Config and add to database
-    # make an extremely basic query to test the connection, just insert a 1 and make a new table
-    cursor.execute("INSERT INTO test (id) VALUES (1);")
-    
-    db.commit()
+    #establishing the connection
+    conn = psycopg2.connect(
+    database=DATABASE, user=USERNAME, password=PASSWORD, host=HOST, port=PORT)
+    conn.autocommit = True
 
+    #Creating a cursor object using the cursor() method
+    cursor = conn.cursor()
+
+    #Preparing query to create a database
+    sql = '''CREATE database mydb''';
+
+    #Creating a database
+    cursor.execute(sql)
+    print("Database created successfully........")
+
+    #Closing the connection
+    conn.close()
 
 if __name__ == "__main__":
     main()

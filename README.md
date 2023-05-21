@@ -24,10 +24,20 @@ Right now, we are working on a few different thigns
 - Building a showcase website/frontend
     - [Nextjs](https://nextjs.org/)
 - Building a community to contribute to the project
+- Add other methods of storing scraped data
+    - Excel
 - Deployment for remote use of api
     - [AWS RDS](https://aws.amazon.com/rds/) + Server Hosting
 - Addition of other fighting leagues and sports
-    - [ONEFC](https://www.onefc.com/)
+    - Would need to reconfig large portion of api & add scraping, but could be cool.
+    - MMA
+        - [ONEFC](https://www.onefc.com/)
+        - [Bellator](https://www.bellator.com/)
+        - [PFL](https://www.pflmma.com/)
+    - Other sports
+        - May be better suited for another project
+        - Boxing
+        - BJJ
 
 ## Deployment
 
