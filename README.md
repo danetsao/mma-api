@@ -105,4 +105,4 @@ PostgreSQL Database
 If you need help configuring a PostgreSQL database, see [documentation](https://www.postgresql.org/docs/)
 
 
-[⬆️ Back to Top ⬆️](#table-of-contents)
+[⬆️ Back to Top ⬆️](#mma-api)
