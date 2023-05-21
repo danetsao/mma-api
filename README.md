@@ -22,9 +22,12 @@ If you have questions, or comments feel free to reach out. I plan to continue wo
 Right now, we are working on a few different thigns
 - Configuring a database
 - Building a showcase website/frontend
+    - [Nextjs](https://nextjs.org/)
 - Building a community to contribute to the project
 - Deployment for remote use of api
+    - [AWS RDS](https://aws.amazon.com/rds/) + Server Hosting
 - Addition of other fighting leagues and sports
+    - [ONEFC](https://www.onefc.com/)
 
 ## Deployment
 
