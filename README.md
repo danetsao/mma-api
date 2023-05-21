@@ -5,6 +5,7 @@
 
 ## Table of Contents
 - [Overview](#overview)
+- [In Progress](#in-progress)
 - [Deployment](#deployment)
     - [Scraping](#scraping)
     - [Database](#database)
@@ -15,7 +16,14 @@
 
 This is an MMA API that scraped data from [ufc.com](https://www.ufc.com/), stores it in a Postgres database, and has a node + express api to give information on the athletes. 
 
-If you have questions, or comments feel free to reach out. I plan to continue working at this and open up some issues for others to contribute with. If you are interested in contributing, see contribution guidelines [here](https://github.com/danetsao/mma-api)
+If you have questions, or comments feel free to reach out. I plan to continue working at this and open up some issues for others to contribute with. If you are interested in contributing, see contribution guidelines [here](https://github.com/danetsao/mma-api/CONTRIBUTING.md)
+
+## In Progress
+Right now, we are working on a few different thigns
+- Configuring a database
+- Building a showcase website/frontend
+- Deployment for remote use of api
+- Addition of other fighting leagues and sports
 
 ## Deployment
 
