@@ -12,6 +12,8 @@
     - [API](#api)
 - [Environment Variables](#environment-variables)
 
+---
+
 ## Overview
 
 This is an MMA API that scraped data from [ufc.com](https://www.ufc.com/), stores it in a Postgres database, and has a node + express api to give information on the athletes. 
@@ -101,3 +103,6 @@ PostgreSQL Database
 `DB_PASSWORD`
 
 If you need help configuring a PostgreSQL database, see [documentation](https://www.postgresql.org/docs/)
+
+
+[⬆️ Back to Top ⬆️](#table-of-contents)
