@@ -31,6 +31,13 @@ class TestAddFunction(unittest.TestCase):
         self.assertEqual(data['take_downs_landed'], '36')
         self.assertEqual(data['take_downs_attempted'], '97')
 
+    def test_alexander_volkanovski(self):
+        name = 'alexander-volkanovski'
+        data = get_athlete_data(name)
+        self.assertEqual(data['wins_by_knockout'], '12')
+        self.assertEqual(data['wins_by_submission'], '3')
+        self.assertEqual(data['first_round_finishes'], '7')
+
 # Run the test case
 if __name__ == '__main__':
     unittest.main()

@@ -11,6 +11,7 @@
     - [Database](#database)
     - [API](#api)
 - [Environment Variables](#environment-variables)
+- [Usage](#usage)
 
 ---
 
@@ -56,6 +57,7 @@ It's easy to get started scraping.
 ```bash
   pip install -r requirements.txt
 ```
+I recommend you uncomment the print statements so you can see your data.
 ```bash
   python scrape.py
 ```
@@ -104,5 +106,11 @@ PostgreSQL Database
 
 If you need help configuring a PostgreSQL database, see [documentation](https://www.postgresql.org/docs/)
 
+## Usage
+There is a wide array of uses for the project. Some ideas:
 
-[⬆️ Back to Top ⬆️](#mma-api)
+- Analytics
+- Blog
+- Data science 
+
+[⬆️ Back to Top ⬆️](#table-of-contents)

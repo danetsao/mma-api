@@ -35,6 +35,7 @@ class TestAddFunction(unittest.TestCase):
         self.assertEqual(False, fights[1]['win']) # Petr lost his second most recent fight vs Omalley
         self.assertEqual(False, fights[2]['win']) # Petr lost his third most recent fight vs Aljo
 
+        
 # Run the test case
 if __name__ == '__main__':
     unittest.main()
