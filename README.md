@@ -1,5 +1,5 @@
 
-# MMA API
+# MMA API :martial_arts_uniform: :boxing_glove:
 
 ### A REST API for getting current information on mma athletes.
 
