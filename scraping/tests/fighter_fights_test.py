@@ -26,11 +26,14 @@ class TestAddFunction(unittest.TestCase):
 
     def test_leon_edwards(self):
         fights = config_data('leon-edwards')
-        self.assertEqual(0, 0)
+        self.assertEqual(False, fights[0]['win']) # Leon lost his most recent fight vs Kamaru Usman
+        self.assertEqual(True, fights[1]['win']) # Leon won his second most recent fight vs Kamaru Usman
     
-    def test_jon_jones(self):
-        fights = config_data('jon-jones')
-        self.assertEqual(0, 0)
+    def test_petr_yan(self):
+        fights = config_data('petr-yan')
+        self.assertEqual(False, fights[0]['win']) # Petr lost his most recent fight vs Dvalishvili
+        self.assertEqual(False, fights[1]['win']) # Petr lost his second most recent fight vs Omalley
+        self.assertEqual(False, fights[2]['win']) # Petr lost his third most recent fight vs Aljo
 
 # Run the test case
 if __name__ == '__main__':
