@@ -6,9 +6,8 @@ from waiting import wait
 
 
 def get_athlete_data(name_postfix: str):
-    print('Getting data for ' + name_postfix)
+    print(f"Getting data for {name_postfix}")
     url = 'https://www.ufc.com/athlete/' + name_postfix 
-    print(url)
     response = requests.get(url)
 
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -83,7 +82,7 @@ def get_athlete_data(name_postfix: str):
 
     win_methods = soup.find_all("div", class_="c-stat-3bar__value")
 
-    print(win_methods)
+    #print(win_methods)
 
     wins_by_knockout = win_methods[3].text.split()[0]
     wins_by_decision = win_methods[4].text.split()[0]
@@ -92,7 +91,7 @@ def get_athlete_data(name_postfix: str):
     # Past fights
     fight_data = get_fight_data(name_postfix)
 
-
+    """
     #print all the stats and make sure we are right
     print(f'Wins by knockout: {wins_by_knockout}')
     print(f'Wins by submission: {wins_by_submission}')
@@ -120,7 +119,7 @@ def get_athlete_data(name_postfix: str):
     print(f'Wins by KO/TKO: {wins_by_knockout}')
     print(f'Wins by decision: {wins_by_decision}')
     print(f'Wins by submission: {wins_by_submission}')
-
+    """
 
     # config the vairbles into json format
 
@@ -156,8 +155,10 @@ def get_athlete_data(name_postfix: str):
 
 
 def get_fight_data(name_postfix: str):
-    print('Getting fights for ' + name_postfix)
+    #print('Getting fights for ' + name_postfix)
     url = 'https://www.ufc.com/athlete/' + name_postfix 
+
+    last = name_postfix.split('-')[1]
 
     response = requests.get(url)
 
@@ -166,37 +167,73 @@ def get_fight_data(name_postfix: str):
     fights = soup.find_all("div", class_="c-card-event--athlete-results__info")
 
     list_of_fights = []
+    winners = soup.find_all("div", class_="c-card-event--athlete-results__red-image")
 
+    list_of_winners = []
+
+    list_of_winners_bool = [False] * len(winners)
+
+    #find add the a tags within in winners to a list
+    for i, winner in enumerate(winners):
+        list_of_winners.append(winner.find("a"))
+
+    for winner in list_of_winners:
+        # if url is in winner
+        if url in winner['href']:
+            list_of_winners_bool[i] = True
+    
     for i, fight in enumerate(fights):
-        
-        winner_data = (soup.find_all("div", class_="c-card-event--athlete-results__red-image"))[i]
+        current_fight_result = fight.text.split()
 
-        winner_link = winner_data
+        round = "Not found"
+        time = "Not found"
+        method = "Not found"
+        win = list_of_winners_bool[i]
 
-        #for d in winner_link:
-            #print(d)
+        opponent = current_fight_result[2]
+        # The athlete's are listed on different sides based on who is ranked higher I believe
+        if opponent.lower() == last:
+            opponent = current_fight_result[0]
+            if win:
+                win = False
+            else:
+                win = True
+        month = current_fight_result[3]
+        day = current_fight_result[4]
+        year = current_fight_result[5]
 
-        #print(winner_link)
+        if len(current_fight_result) > 6:
+            round = current_fight_result[7]
+            time = current_fight_result[9]
+            method = current_fight_result[11]
 
-        current_fight = fight.text.split()
-        opponent = current_fight[2]
-        current_fight_result = fight.find_all("div", class_="c-card-event--athlete-results__results")
-        if len(current_fight_result) == 0:
-            continue
-        for r in current_fight_result:
-            current_fight_result = r.text.split()
-
-        round = current_fight_result[1]
-        time = current_fight_result[3]
-        method = current_fight_result[5]
-
+        """
         print(f'Opponent: {opponent}')
+        print(f'Win: {win}')
         print(f'Round: {round}')
         print(f'Time: {time}')
         print(f'Method: {method}')
+        print(f'Month: {month}')
+        print(f'Day: {day}')
+        print(f'Year: {year}')
+        print()
+        """
+
+        current_fight_json = {
+            'opponent': opponent,
+            'win': win,
+            'round': round,
+            'time': time,
+            'method': method,
+            'month': month,
+            'day': day,
+            'year': year
+        }
+        list_of_fights.append(current_fight_json)
+        
     return list_of_fights
 
-def get_athlete_rankings():
+def get_all_athletes():
     """
     Get the UFC athlete rankings from the UFC website.
     Currently prints top 15 athletes in each weight class, their ranking and their rank change.
@@ -223,7 +260,6 @@ def get_athlete_rankings():
 
             rank = cells[0].text
             name = cells[1].text
-            print(name)
             rank_change = cells[2].text
             name_postfix = name.lower().replace(' ', '-').replace('.', '')
             name_postfix = name_postfix[0:len(name_postfix)-1]
@@ -252,4 +288,4 @@ def get_athlete_rankings():
 
 
 if __name__ == "__main__":
-    get_athlete_data('jon-jones')
+    get_all_athletes()

@@ -34,6 +34,28 @@ app.get('/athlete/:athlete_postfix', (req, res) => {
     res.json(obj);
 });
 
+// funciton to validate weight class
+function validate(weightclass: string) {
+    const weightclasses = ['strawweight', 'flyweight', 'bantamweight', 'featherweight', 'lightweight', 'welterweight', 'middleweight', 'light-heavyweight', 'heavyweight'];
+    return weightclasses.includes(weightclass);
+}
+
+// To get top 15 athletes by weight class, by default mens
+app.get('/:weightclass', (req, res) => {
+    const weightclass = req.params.weightclass;
+    if (!validate(weightclass)) {
+        res.status(400);
+        res.send('Invalid weight class');
+        return;
+    }
+    // Return all athlete data
+    //Query database for all athlete data.
+    const obj = {
+        data: 'all athlete data'
+    };
+    res.json(obj);
+});
+
 // Listen for incoming requests
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
