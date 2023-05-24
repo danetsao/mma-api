@@ -276,22 +276,21 @@ def get_all_athletes(print_data: bool = False):
             except Exception as e:
                 print("Error: %s" % e)
 
-            current_athlet_list = [ranking_name, name, rank, rank_change, current_athlete_data]
+            current_athlete_json = {
+                'name': name,
+                'rank': rank,
+                'rank_change': rank_change,
+                'weightclass': ranking_name,
+                'data': current_athlete_data
+            }
 
 
 
-            list_of_athletes.append(current_athlet_list)
+            list_of_athletes.append(current_athlete_json)
         
         list_of_classes.append(list_of_athletes)
 
     # Print the data to see what it looks like
-
-    for c in list_of_classes:
-        if c:
-            print(c[0][0])
-        for a in c:
-            print(a[2], a[1], a[3], a[4])
-        print()
     
     return list_of_classes
 
