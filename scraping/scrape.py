@@ -292,6 +292,8 @@ def get_all_athletes(print_data: bool = False):
         for a in c:
             print(a[2], a[1], a[3], a[4])
         print()
+    
+    return list_of_classes
 
 
 
