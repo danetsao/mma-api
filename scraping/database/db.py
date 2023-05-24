@@ -21,7 +21,8 @@ def main():
 
     print('Getting all athletes from data.json...')
     #set athlete data to the list of json objects from the file data.json
-    list_of_weight_classes = get_all_athletes()
+    with open('data.json', 'r', encoding='utf-8') as f:
+        athlete_data = json.load(f)
     #establishing the connection
     conn = psycopg2.connect(
     database=DATABASE, user=USERNAME, password=PASSWORD, host=HOST, port=PORT)
