@@ -13,3 +13,6 @@ npm-debug.log
 # Other
 scraping/scraped_data_sample.txt
 images/
+
+# Ignore client
+client/

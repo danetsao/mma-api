@@ -15,6 +15,8 @@ USERNAME = os.environ.get('DB_USERNAME')
 PASSWORD = os.environ.get('DB_PASSWORD')
 DATABASE = os.environ.get('DB_NAME')
 
+# Thank to github copilot for helping me write these queries
+
 # Main function
 def main():
 
