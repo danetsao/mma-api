@@ -1,9 +1,0 @@
-idna
-numpy
-requests
-beautifulsoup4
-waiting
-psycopg2-binary
-sys
-os
-waiting
