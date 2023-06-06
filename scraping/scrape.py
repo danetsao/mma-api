@@ -265,6 +265,8 @@ def get_all_athletes(print_data: bool = False):
             name_postfix = name_postfix[0:len(name_postfix)-1]
             current_athlete_data = {}
 
+            rank = rank.split()[0]
+
             if print_data:
                 print(f'Weightclass: {ranking_name}')
                 print(f'Name: {name}')
@@ -276,10 +278,14 @@ def get_all_athletes(print_data: bool = False):
             except Exception as e:
                 print("Error: %s" % e)
 
+            current_athlete['rank_change'] = rank_change
+            # take first two words in name string
+            if len(name.split()) >= 2:
+                name = name.split()[0] + ' ' + name.split()[1]
+            rank = rank[0]
             current_athlete_json = {
                 'name': name,
                 'rank': rank,
-                'rank_change': rank_change,
                 'weightclass': ranking_name,
                 'data': current_athlete_data
             }

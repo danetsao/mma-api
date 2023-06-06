@@ -1,9 +1,8 @@
 [
   [
     {
-      "name": "Jon Jones ",
+      "name": "Jon Jones",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "10",
@@ -65,9 +64,8 @@
       }
     },
     {
-      "name": "Alexander Volkanovski ",
+      "name": "Alexander Volkanovski",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "12",
@@ -129,9 +127,8 @@
       }
     },
     {
-      "name": "Islam Makhachev ",
+      "name": "Islam Makhachev",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "4",
@@ -193,9 +190,8 @@
       }
     },
     {
-      "name": "Leon Edwards ",
+      "name": "Leon Edwards",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "7",
@@ -257,9 +253,8 @@
       }
     },
     {
-      "name": "Israel Adesanya ",
+      "name": "Israel Adesanya",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "16",
@@ -321,9 +316,8 @@
       }
     },
     {
-      "name": "Aljamain Sterling ",
+      "name": "Aljamain Sterling",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "3",
@@ -385,9 +379,8 @@
       }
     },
     {
-      "name": "Kamaru Usman ",
+      "name": "Kamaru Usman",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "9",
@@ -449,9 +442,8 @@
       }
     },
     {
-      "name": "Charles Oliveira ",
+      "name": "Charles Oliveira",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "9",
@@ -513,9 +505,8 @@
       }
     },
     {
-      "name": "Brandon Moreno ",
+      "name": "Brandon Moreno",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "5",
@@ -577,9 +568,8 @@
       }
     },
     {
-      "name": "Alex Pereira ",
+      "name": "Alex Pereira",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "6",
@@ -641,9 +631,8 @@
       }
     },
     {
-      "name": "Jiří Procházka ",
+      "name": "Jiří Procházka",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "25",
@@ -705,9 +694,8 @@
       }
     },
     {
-      "name": "Max Holloway ",
+      "name": "Max Holloway",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "10",
@@ -769,9 +757,8 @@
       }
     },
     {
-      "name": "Dustin Poirier ",
+      "name": "Dustin Poirier",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "15",
@@ -833,16 +820,14 @@
       }
     },
     {
-      "name": "Jamahal Hill ",
+      "name": "Jamahal Hill",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {}
     },
     {
-      "name": "Robert Whittaker ",
+      "name": "Robert Whittaker",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Men's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "10",
@@ -906,9 +891,8 @@
   ],
   [
     {
-      "name": "Deiveson Figueiredo ",
+      "name": "Deiveson Figueiredo",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "9",
@@ -970,9 +954,8 @@
       }
     },
     {
-      "name": "Alexandre Pantoja ",
+      "name": "Alexandre Pantoja",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "8",
@@ -1034,14 +1017,13 @@
       }
     },
     {
-      "name": "Kai Kara-France ",
+      "name": "Kai Kara-France",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "11",
         "wins_by_submission": "3",
-        "first_round_finishes": -1,
+        "first_round_finishes": "12",
         "sig_strikes_landed": 557.0,
         "sig_strikes_attempted": 1368.0,
         "striking_accuracy": 0.41,
@@ -1098,9 +1080,8 @@
       }
     },
     {
-      "name": "Brandon Royval ",
+      "name": "Brandon Royval",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "4",
@@ -1162,9 +1143,8 @@
       }
     },
     {
-      "name": "Matheus Nicolau ",
+      "name": "Matheus Nicolau",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "5",
@@ -1226,9 +1206,8 @@
       }
     },
     {
-      "name": "Alex Perez ",
+      "name": "Alex Perez",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "5",
@@ -1290,9 +1269,8 @@
       }
     },
     {
-      "name": "Amir Albazi ",
+      "name": "Amir Albazi",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "5",
@@ -1354,9 +1332,8 @@
       }
     },
     {
-      "name": "Matt Schnell ",
+      "name": "Matt Schnell",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "2",
@@ -1418,9 +1395,8 @@
       }
     },
     {
-      "name": "Manel Kape ",
+      "name": "Manel Kape",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "11",
@@ -1482,9 +1458,8 @@
       }
     },
     {
-      "name": "David Dvorak ",
+      "name": "David Dvorak",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "8",
@@ -1546,14 +1521,13 @@
       }
     },
     {
-      "name": "Tim Elliott ",
+      "name": "Tim Elliott",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "3",
         "wins_by_submission": "6",
-        "first_round_finishes": "0",
+        "first_round_finishes": "5",
         "sig_strikes_landed": 763.0,
         "sig_strikes_attempted": 1729.0,
         "striking_accuracy": 0.44,
@@ -1570,11 +1544,11 @@
         "average_fight_time": "12:32",
         "sig_strikes_standing": "486",
         "sig_strikes_clinch": "139",
-        "sig_strikes_ground": "99",
+        "sig_strikes_ground": "10",
         "sig_strike_head": "439",
         "sig_strike_body": "158 ",
         "sig_strike_leg": "166",
-        "wins_by_decision": "99",
+        "wins_by_decision": "10",
         "fights": [
           {
             "opponent": "Ulanbekov",
@@ -1610,23 +1584,20 @@
       }
     },
     {
-      "name": "Muhammad Mokaev ",
+      "name": "Muhammad Mokaev",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {}
     },
     {
       "name": "Sumudaerji ",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {}
     },
     {
-      "name": "Tagir Ulanbekov ",
+      "name": "Tagir Ulanbekov",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "2",
@@ -1688,9 +1659,8 @@
       }
     },
     {
-      "name": "Bruno Silva ",
+      "name": "Bruno Silva",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Flyweight",
       "data": {
         "wins_by_knockout": "5",
@@ -1754,9 +1724,8 @@
   ],
   [
     {
-      "name": "Merab Dvalishvili ",
+      "name": "Merab Dvalishvili",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "3",
@@ -1818,9 +1787,8 @@
       }
     },
     {
-      "name": "Sean O'Malley ",
+      "name": "Sean O'Malley",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "11",
@@ -1882,9 +1850,8 @@
       }
     },
     {
-      "name": "Henry Cejudo ",
+      "name": "Henry Cejudo",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "8",
@@ -1946,9 +1913,8 @@
       }
     },
     {
-      "name": "Cory Sandhagen ",
+      "name": "Cory Sandhagen",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "7",
@@ -2010,9 +1976,8 @@
       }
     },
     {
-      "name": "Petr Yan ",
+      "name": "Petr Yan",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "7",
@@ -2074,9 +2039,8 @@
       }
     },
     {
-      "name": "Marlon Vera ",
+      "name": "Marlon Vera",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "8",
@@ -2138,9 +2102,8 @@
       }
     },
     {
-      "name": "Rob Font ",
+      "name": "Rob Font",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "9",
@@ -2202,9 +2165,8 @@
       }
     },
     {
-      "name": "Song Yadong ",
+      "name": "Song Yadong",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "9",
@@ -2266,9 +2228,8 @@
       }
     },
     {
-      "name": "Dominick Cruz ",
+      "name": "Dominick Cruz",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "7",
@@ -2330,9 +2291,8 @@
       }
     },
     {
-      "name": "Pedro Munhoz ",
+      "name": "Pedro Munhoz",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "5",
@@ -2394,9 +2354,8 @@
       }
     },
     {
-      "name": "Umar Nurmagomedov ",
+      "name": "Umar Nurmagomedov",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "1",
@@ -2458,9 +2417,8 @@
       }
     },
     {
-      "name": "Ricky Simon ",
+      "name": "Ricky Simon",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "6",
@@ -2522,16 +2480,14 @@
       }
     },
     {
-      "name": "Adrian Yanez ",
+      "name": "Adrian Yanez",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {}
     },
     {
-      "name": "Chris Gutierrez ",
+      "name": "Chris Gutierrez",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "9",
@@ -2593,9 +2549,8 @@
       }
     },
     {
-      "name": "Jonathan Martinez ",
+      "name": "Jonathan Martinez",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Bantamweight",
       "data": {
         "wins_by_knockout": "8",
@@ -2659,9 +2614,8 @@
   ],
   [
     {
-      "name": "Yair Rodriguez ",
+      "name": "Yair Rodriguez",
       "rank": "1          ",
-      "rank_change": "interim ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "6",
@@ -2723,9 +2677,8 @@
       }
     },
     {
-      "name": "Max Holloway ",
+      "name": "Max Holloway",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "10",
@@ -2787,9 +2740,8 @@
       }
     },
     {
-      "name": "Brian Ortega ",
+      "name": "Brian Ortega",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "3",
@@ -2851,9 +2803,8 @@
       }
     },
     {
-      "name": "Arnold Allen ",
+      "name": "Arnold Allen",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "7",
@@ -2915,9 +2866,8 @@
       }
     },
     {
-      "name": "Josh Emmett ",
+      "name": "Josh Emmett",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "6",
@@ -2979,9 +2929,8 @@
       }
     },
     {
-      "name": "Calvin Kattar ",
+      "name": "Calvin Kattar",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "11",
@@ -3043,9 +2992,8 @@
       }
     },
     {
-      "name": "Chan Sung Jung ",
+      "name": "Chan Sung",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "6",
@@ -3107,9 +3055,8 @@
       }
     },
     {
-      "name": "Giga Chikadze ",
+      "name": "Giga Chikadze",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "9",
@@ -3171,9 +3118,8 @@
       }
     },
     {
-      "name": "Ilia Topuria ",
+      "name": "Ilia Topuria",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "4",
@@ -3235,9 +3181,8 @@
       }
     },
     {
-      "name": "Movsar Evloev ",
+      "name": "Movsar Evloev",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "3",
@@ -3299,9 +3244,8 @@
       }
     },
     {
-      "name": "Bryce Mitchell ",
+      "name": "Bryce Mitchell",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "0",
@@ -3363,9 +3307,8 @@
       }
     },
     {
-      "name": "Sodiq Yusuff ",
+      "name": "Sodiq Yusuff",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "6",
@@ -3427,9 +3370,8 @@
       }
     },
     {
-      "name": "Dan Ige ",
+      "name": "Dan Ige",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "5",
@@ -3491,9 +3433,8 @@
       }
     },
     {
-      "name": "Edson Barboza ",
+      "name": "Edson Barboza",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "14",
@@ -3555,9 +3496,8 @@
       }
     },
     {
-      "name": "Alex Caceres ",
+      "name": "Alex Caceres",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Featherweight",
       "data": {
         "wins_by_knockout": "4",
@@ -3621,9 +3561,8 @@
   ],
   [
     {
-      "name": "Charles Oliveira ",
+      "name": "Charles Oliveira",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "9",
@@ -3685,9 +3624,8 @@
       }
     },
     {
-      "name": "Dustin Poirier ",
+      "name": "Dustin Poirier",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "15",
@@ -3749,9 +3687,8 @@
       }
     },
     {
-      "name": "Justin Gaethje ",
+      "name": "Justin Gaethje",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "19",
@@ -3813,9 +3750,8 @@
       }
     },
     {
-      "name": "Beneil Dariush ",
+      "name": "Beneil Dariush",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "5",
@@ -3877,9 +3813,8 @@
       }
     },
     {
-      "name": "Michael Chandler ",
+      "name": "Michael Chandler",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "11",
@@ -3941,9 +3876,8 @@
       }
     },
     {
-      "name": "Rafael Fiziev ",
+      "name": "Rafael Fiziev",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "8",
@@ -4005,9 +3939,8 @@
       }
     },
     {
-      "name": "Mateusz Gamrot ",
+      "name": "Mateusz Gamrot",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "7",
@@ -4069,9 +4002,8 @@
       }
     },
     {
-      "name": "Arman Tsarukyan ",
+      "name": "Arman Tsarukyan",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "7",
@@ -4133,9 +4065,8 @@
       }
     },
     {
-      "name": "Rafael Dos Anjos ",
+      "name": "Rafael Dos",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "5",
@@ -4197,9 +4128,8 @@
       }
     },
     {
-      "name": "Jalin Turner ",
+      "name": "Jalin Turner",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "9",
@@ -4261,9 +4191,8 @@
       }
     },
     {
-      "name": "Dan Hooker ",
+      "name": "Dan Hooker",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "11",
@@ -4325,9 +4254,8 @@
       }
     },
     {
-      "name": "Damir Ismagulov ",
+      "name": "Damir Ismagulov",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "12",
@@ -4389,9 +4317,8 @@
       }
     },
     {
-      "name": "Renato Moicano ",
+      "name": "Renato Moicano",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "0",
@@ -4453,9 +4380,8 @@
       }
     },
     {
-      "name": "Matt Frevola ",
+      "name": "Matt Frevola",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "4",
@@ -4517,9 +4443,8 @@
       }
     },
     {
-      "name": "Grant Dawson ",
+      "name": "Grant Dawson",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Lightweight",
       "data": {
         "wins_by_knockout": "4",
@@ -4583,9 +4508,8 @@
   ],
   [
     {
-      "name": "Kamaru Usman ",
+      "name": "Kamaru Usman",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "9",
@@ -4647,9 +4571,8 @@
       }
     },
     {
-      "name": "Colby Covington ",
+      "name": "Colby Covington",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "4",
@@ -4711,9 +4634,8 @@
       }
     },
     {
-      "name": "Belal Muhammad ",
+      "name": "Belal Muhammad",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "5",
@@ -4775,9 +4697,8 @@
       }
     },
     {
-      "name": "Khamzat Chimaev ",
+      "name": "Khamzat Chimaev",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "6",
@@ -4839,9 +4760,8 @@
       }
     },
     {
-      "name": "Gilbert Burns ",
+      "name": "Gilbert Burns",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "6",
@@ -4903,9 +4823,8 @@
       }
     },
     {
-      "name": "Shavkat Rakhmonov ",
+      "name": "Shavkat Rakhmonov",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "8",
@@ -4967,9 +4886,8 @@
       }
     },
     {
-      "name": "Stephen Thompson ",
+      "name": "Stephen Thompson",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "8",
@@ -5031,9 +4949,8 @@
       }
     },
     {
-      "name": "Geoff Neal ",
+      "name": "Geoff Neal",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "9",
@@ -5095,9 +5012,8 @@
       }
     },
     {
-      "name": "Sean Brady ",
+      "name": "Sean Brady",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "3",
@@ -5159,9 +5075,8 @@
       }
     },
     {
-      "name": "Vicente Luque ",
+      "name": "Vicente Luque",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "11",
@@ -5223,9 +5138,8 @@
       }
     },
     {
-      "name": "Neil Magny ",
+      "name": "Neil Magny",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "7",
@@ -5287,9 +5201,8 @@
       }
     },
     {
-      "name": "Michael Chiesa ",
+      "name": "Michael Chiesa",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "0",
@@ -5351,23 +5264,20 @@
       }
     },
     {
-      "name": "Ian Machado Garry ",
+      "name": "Ian Machado",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {}
     },
     {
-      "name": "Jack Della Maddalena ",
+      "name": "Jack Della",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {}
     },
     {
-      "name": "Michel Pereira ",
+      "name": "Michel Pereira",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Welterweight",
       "data": {
         "wins_by_knockout": "10",
@@ -5431,9 +5341,8 @@
   ],
   [
     {
-      "name": "Alex Pereira ",
+      "name": "Alex Pereira",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "6",
@@ -5495,9 +5404,8 @@
       }
     },
     {
-      "name": "Robert Whittaker ",
+      "name": "Robert Whittaker",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "10",
@@ -5559,9 +5467,8 @@
       }
     },
     {
-      "name": "Marvin Vettori ",
+      "name": "Marvin Vettori",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "2",
@@ -5623,9 +5530,8 @@
       }
     },
     {
-      "name": "Jared Cannonier ",
+      "name": "Jared Cannonier",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "10",
@@ -5687,9 +5593,8 @@
       }
     },
     {
-      "name": "Paulo Costa ",
+      "name": "Paulo Costa",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "11",
@@ -5751,16 +5656,14 @@
       }
     },
     {
-      "name": "Dricus Du Plessis ",
+      "name": "Dricus Du",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {}
     },
     {
-      "name": "Sean Strickland ",
+      "name": "Sean Strickland",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "10",
@@ -5822,16 +5725,14 @@
       }
     },
     {
-      "name": "Derek Brunson ",
+      "name": "Derek Brunson",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {}
     },
     {
-      "name": "Roman Dolidze ",
+      "name": "Roman Dolidze",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "7",
@@ -5893,9 +5794,8 @@
       }
     },
     {
-      "name": "Jack Hermansson ",
+      "name": "Jack Hermansson",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "11",
@@ -5957,9 +5857,8 @@
       }
     },
     {
-      "name": "Kelvin Gastelum ",
+      "name": "Kelvin Gastelum",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "7",
@@ -6021,9 +5920,8 @@
       }
     },
     {
-      "name": "Nassourdine Imavov ",
+      "name": "Nassourdine Imavov",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "5",
@@ -6085,9 +5983,8 @@
       }
     },
     {
-      "name": "Brendan Allen ",
+      "name": "Brendan Allen",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "5",
@@ -6149,16 +6046,14 @@
       }
     },
     {
-      "name": "Chris Curtis ",
+      "name": "Chris Curtis",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {}
     },
     {
-      "name": "Andre Muniz ",
+      "name": "Andre Muniz",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Middleweight",
       "data": {
         "wins_by_knockout": "4",
@@ -6222,9 +6117,8 @@
   ],
   [
     {
-      "name": "Jiří Procházka ",
+      "name": "Jiří Procházka",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "25",
@@ -6286,9 +6180,8 @@
       }
     },
     {
-      "name": "Magomed Ankalaev ",
+      "name": "Magomed Ankalaev",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "10",
@@ -6350,16 +6243,14 @@
       }
     },
     {
-      "name": "Jan Błachowicz ",
+      "name": "Jan Błachowicz",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {}
     },
     {
-      "name": "Aleksandar Rakić ",
+      "name": "Aleksandar Rakić",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "9",
@@ -6421,73 +6312,8 @@
       }
     },
     {
-      "name": "Nikita Krylov ",
+      "name": "Johnny Walker",
       "rank": "5          ",
-      "rank_change": " ",
-      "weightclass": "Light Heavyweight",
-      "data": {
-        "wins_by_knockout": "12",
-        "wins_by_submission": "16",
-        "first_round_finishes": "23",
-        "sig_strikes_landed": 546.0,
-        "sig_strikes_attempted": 979.0,
-        "striking_accuracy": 0.56,
-        "take_downs_landed": "1",
-        "take_downs_attempted": "50",
-        "take_down_accuracy": 2.0,
-        "sig_strikes_landed_per_min": "4.38",
-        "sig_strikes_absorbed_per_min": "2.47",
-        "take_down_avg_per_15_min": "2.29",
-        "submission_avg_per_15_min": "1.44",
-        "sig_strikes_defense": "45",
-        "take_down_defense": "53",
-        "kockdown_avg": "0.60",
-        "average_fight_time": "06:56",
-        "sig_strikes_standing": "279",
-        "sig_strikes_clinch": "122",
-        "sig_strikes_ground": "2",
-        "sig_strike_head": "351",
-        "sig_strike_body": "128 ",
-        "sig_strike_leg": "67",
-        "wins_by_decision": "2",
-        "fights": [
-          {
-            "opponent": "Spann",
-            "win": false,
-            "round": "1",
-            "time": "3:38",
-            "method": "Submission",
-            "month": "Mar.",
-            "day": "11,",
-            "year": "2023"
-          },
-          {
-            "opponent": "Oezdemir",
-            "win": true,
-            "round": "3",
-            "time": "5:00",
-            "method": "Decision",
-            "month": "Oct.",
-            "day": "22,",
-            "year": "2022"
-          },
-          {
-            "opponent": "Gustafsson",
-            "win": true,
-            "round": "1",
-            "time": "1:07",
-            "method": "KO/TKO",
-            "month": "Jul.",
-            "day": "23,",
-            "year": "2022"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Johnny Walker ",
-      "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "16",
@@ -6549,9 +6375,71 @@
       }
     },
     {
-      "name": "Anthony Smith ",
+      "name": "Nikita Krylov",
+      "rank": "5          ",
+      "weightclass": "Light Heavyweight",
+      "data": {
+        "wins_by_knockout": "12",
+        "wins_by_submission": "16",
+        "first_round_finishes": "23",
+        "sig_strikes_landed": 546.0,
+        "sig_strikes_attempted": 979.0,
+        "striking_accuracy": 0.56,
+        "take_downs_landed": "1",
+        "take_downs_attempted": "50",
+        "take_down_accuracy": 2.0,
+        "sig_strikes_landed_per_min": "4.38",
+        "sig_strikes_absorbed_per_min": "2.47",
+        "take_down_avg_per_15_min": "2.29",
+        "submission_avg_per_15_min": "1.44",
+        "sig_strikes_defense": "45",
+        "take_down_defense": "53",
+        "kockdown_avg": "0.60",
+        "average_fight_time": "06:56",
+        "sig_strikes_standing": "279",
+        "sig_strikes_clinch": "122",
+        "sig_strikes_ground": "2",
+        "sig_strike_head": "351",
+        "sig_strike_body": "128 ",
+        "sig_strike_leg": "67",
+        "wins_by_decision": "2",
+        "fights": [
+          {
+            "opponent": "Spann",
+            "win": false,
+            "round": "1",
+            "time": "3:38",
+            "method": "Submission",
+            "month": "Mar.",
+            "day": "11,",
+            "year": "2023"
+          },
+          {
+            "opponent": "Oezdemir",
+            "win": true,
+            "round": "3",
+            "time": "5:00",
+            "method": "Decision",
+            "month": "Oct.",
+            "day": "22,",
+            "year": "2022"
+          },
+          {
+            "opponent": "Gustafsson",
+            "win": true,
+            "round": "1",
+            "time": "1:07",
+            "method": "KO/TKO",
+            "month": "Jul.",
+            "day": "23,",
+            "year": "2022"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Anthony Smith",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "19",
@@ -6613,9 +6501,8 @@
       }
     },
     {
-      "name": "Volkan Oezdemir ",
+      "name": "Volkan Oezdemir",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "12",
@@ -6677,9 +6564,8 @@
       }
     },
     {
-      "name": "Paul Craig ",
+      "name": "Paul Craig",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "3",
@@ -6741,9 +6627,8 @@
       }
     },
     {
-      "name": "Ryan Spann ",
+      "name": "Ryan Spann",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "6",
@@ -6805,9 +6690,8 @@
       }
     },
     {
-      "name": "Azamat Murzakanov ",
+      "name": "Azamat Murzakanov",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "9",
@@ -6869,9 +6753,8 @@
       }
     },
     {
-      "name": "Dominick Reyes ",
+      "name": "Dominick Reyes",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "7",
@@ -6933,9 +6816,8 @@
       }
     },
     {
-      "name": "Khalil Rountree Jr. ",
+      "name": "Khalil Rountree",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "8",
@@ -6997,9 +6879,8 @@
       }
     },
     {
-      "name": "Jimmy Crute ",
+      "name": "Jimmy Crute",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "5",
@@ -7061,9 +6942,8 @@
       }
     },
     {
-      "name": "Dustin Jacoby ",
+      "name": "Dustin Jacoby",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Light Heavyweight",
       "data": {
         "wins_by_knockout": "11",
@@ -7127,9 +7007,8 @@
   ],
   [
     {
-      "name": "Ciryl Gane ",
+      "name": "Ciryl Gane",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "5",
@@ -7191,9 +7070,8 @@
       }
     },
     {
-      "name": "Sergei Pavlovich ",
+      "name": "Sergei Pavlovich",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "15",
@@ -7255,9 +7133,8 @@
       }
     },
     {
-      "name": "Stipe Miocic ",
+      "name": "Stipe Miocic",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "15",
@@ -7319,9 +7196,8 @@
       }
     },
     {
-      "name": "Curtis Blaydes ",
+      "name": "Curtis Blaydes",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "12",
@@ -7383,9 +7259,8 @@
       }
     },
     {
-      "name": "Tom Aspinall ",
+      "name": "Tom Aspinall",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "9",
@@ -7447,9 +7322,8 @@
       }
     },
     {
-      "name": "Tai Tuivasa ",
+      "name": "Tai Tuivasa",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "14",
@@ -7511,9 +7385,8 @@
       }
     },
     {
-      "name": "Alexander Volkov ",
+      "name": "Alexander Volkov",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "24",
@@ -7575,9 +7448,8 @@
       }
     },
     {
-      "name": "Serghei Spivac ",
+      "name": "Serghei Spivac",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "7",
@@ -7639,9 +7511,8 @@
       }
     },
     {
-      "name": "Jailton Almeida ",
+      "name": "Jailton Almeida",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "7",
@@ -7703,9 +7574,8 @@
       }
     },
     {
-      "name": "Marcin Tybura ",
+      "name": "Marcin Tybura",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "9",
@@ -7767,9 +7637,8 @@
       }
     },
     {
-      "name": "Derrick Lewis ",
+      "name": "Derrick Lewis",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "21",
@@ -7831,23 +7700,20 @@
       }
     },
     {
-      "name": "Jairzinho Rozenstruik ",
+      "name": "Jairzinho Rozenstruik",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {}
     },
     {
-      "name": "Chris Daukaus ",
+      "name": "Chris Daukaus",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {}
     },
     {
-      "name": "Alexandr Romanov ",
+      "name": "Alexandr Romanov",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "6",
@@ -7909,9 +7775,8 @@
       }
     },
     {
-      "name": "Blagoy Ivanov ",
+      "name": "Blagoy Ivanov",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Heavyweight",
       "data": {
         "wins_by_knockout": "6",
@@ -7975,9 +7840,8 @@
   ],
   [
     {
-      "name": "Amanda Nunes ",
+      "name": "Amanda Nunes",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "13",
@@ -8039,9 +7903,8 @@
       }
     },
     {
-      "name": "Alexa Grasso ",
+      "name": "Alexa Grasso",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "4",
@@ -8103,9 +7966,8 @@
       }
     },
     {
-      "name": "Valentina Shevchenko ",
+      "name": "Valentina Shevchenko",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "8",
@@ -8167,9 +8029,8 @@
       }
     },
     {
-      "name": "Zhang Weili ",
+      "name": "Zhang Weili",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "11",
@@ -8231,9 +8092,8 @@
       }
     },
     {
-      "name": "Rose Namajunas ",
+      "name": "Rose Namajunas",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "2",
@@ -8295,9 +8155,8 @@
       }
     },
     {
-      "name": "Julianna Peña ",
+      "name": "Julianna Peña",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "3",
@@ -8359,9 +8218,8 @@
       }
     },
     {
-      "name": "Carla Esparza ",
+      "name": "Carla Esparza",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "4",
@@ -8423,9 +8281,8 @@
       }
     },
     {
-      "name": "Erin Blanchfield ",
+      "name": "Erin Blanchfield",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "2",
@@ -8487,9 +8344,8 @@
       }
     },
     {
-      "name": "Jessica Andrade ",
+      "name": "Jessica Andrade",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "9",
@@ -8551,9 +8407,8 @@
       }
     },
     {
-      "name": "Yan Xiaonan ",
+      "name": "Yan Xiaonan",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "8",
@@ -8615,9 +8470,8 @@
       }
     },
     {
-      "name": "Manon Fiorot ",
+      "name": "Manon Fiorot",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "6",
@@ -8679,9 +8533,8 @@
       }
     },
     {
-      "name": "Amanda Lemos ",
+      "name": "Amanda Lemos",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "8",
@@ -8743,9 +8596,8 @@
       }
     },
     {
-      "name": "Taila Santos ",
+      "name": "Taila Santos",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "10",
@@ -8807,9 +8659,8 @@
       }
     },
     {
-      "name": "Holly Holm ",
+      "name": "Holly Holm",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "8",
@@ -8871,9 +8722,8 @@
       }
     },
     {
-      "name": "Raquel Pennington ",
+      "name": "Raquel Pennington",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Women's Pound-for-Pound Top Rank",
       "data": {
         "wins_by_knockout": "1",
@@ -8937,9 +8787,8 @@
   ],
   [
     {
-      "name": "Carla Esparza ",
+      "name": "Carla Esparza",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "4",
@@ -9001,9 +8850,8 @@
       }
     },
     {
-      "name": "Rose Namajunas ",
+      "name": "Rose Namajunas",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "2",
@@ -9065,9 +8913,8 @@
       }
     },
     {
-      "name": "Yan Xiaonan ",
+      "name": "Yan Xiaonan",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "8",
@@ -9129,9 +8976,8 @@
       }
     },
     {
-      "name": "Amanda Lemos ",
+      "name": "Amanda Lemos",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "8",
@@ -9193,9 +9039,8 @@
       }
     },
     {
-      "name": "Jessica Andrade ",
+      "name": "Jessica Andrade",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "9",
@@ -9257,9 +9102,8 @@
       }
     },
     {
-      "name": "Virna Jandiroba ",
+      "name": "Virna Jandiroba",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "1",
@@ -9321,9 +9165,8 @@
       }
     },
     {
-      "name": "Mackenzie Dern ",
+      "name": "Mackenzie Dern",
       "rank": "7          ",
-      "rank_change": "Rank increased by 1          ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "0",
@@ -9385,9 +9228,8 @@
       }
     },
     {
-      "name": "Marina Rodriguez ",
+      "name": "Marina Rodriguez",
       "rank": "8          ",
-      "rank_change": "Rank decreased by 1          ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "6",
@@ -9449,9 +9291,8 @@
       }
     },
     {
-      "name": "Tecia Torres ",
+      "name": "Tecia Torres",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "1",
@@ -9513,9 +9354,8 @@
       }
     },
     {
-      "name": "Tatiana Suarez ",
+      "name": "Tatiana Suarez",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "2",
@@ -9577,9 +9417,8 @@
       }
     },
     {
-      "name": "Amanda Ribas ",
+      "name": "Amanda Ribas",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "3",
@@ -9641,16 +9480,14 @@
       }
     },
     {
-      "name": "Michelle Waterson-Gomez ",
+      "name": "Michelle Waterson-Gomez",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {}
     },
     {
-      "name": "Luana Pinheiro ",
+      "name": "Luana Pinheiro",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "2",
@@ -9712,9 +9549,8 @@
       }
     },
     {
-      "name": "Angela Hill ",
+      "name": "Angela Hill",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "5",
@@ -9776,9 +9612,8 @@
       }
     },
     {
-      "name": "Tabatha Ricci ",
+      "name": "Tabatha Ricci",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Women's Strawweight",
       "data": {
         "wins_by_knockout": "1",
@@ -9842,9 +9677,8 @@
   ],
   [
     {
-      "name": "Valentina Shevchenko ",
+      "name": "Valentina Shevchenko",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "8",
@@ -9906,9 +9740,8 @@
       }
     },
     {
-      "name": "Manon Fiorot ",
+      "name": "Manon Fiorot",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "6",
@@ -9970,9 +9803,8 @@
       }
     },
     {
-      "name": "Taila Santos ",
+      "name": "Taila Santos",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "10",
@@ -10034,9 +9866,8 @@
       }
     },
     {
-      "name": "Erin Blanchfield ",
+      "name": "Erin Blanchfield",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "2",
@@ -10098,9 +9929,8 @@
       }
     },
     {
-      "name": "Jessica Andrade ",
+      "name": "Jessica Andrade",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "9",
@@ -10162,9 +9992,8 @@
       }
     },
     {
-      "name": "Katlyn Chookagian ",
+      "name": "Katlyn Chookagian",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "2",
@@ -10226,9 +10055,8 @@
       }
     },
     {
-      "name": "Lauren Murphy ",
+      "name": "Lauren Murphy",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "8",
@@ -10290,9 +10118,8 @@
       }
     },
     {
-      "name": "Jennifer Maia ",
+      "name": "Jennifer Maia",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "4",
@@ -10354,9 +10181,8 @@
       }
     },
     {
-      "name": "Amanda Ribas ",
+      "name": "Amanda Ribas",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "3",
@@ -10418,9 +10244,8 @@
       }
     },
     {
-      "name": "Viviane Araújo ",
+      "name": "Viviane Araújo",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "3",
@@ -10482,9 +10307,8 @@
       }
     },
     {
-      "name": "Maycee Barber ",
+      "name": "Maycee Barber",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "5",
@@ -10546,16 +10370,14 @@
       }
     },
     {
-      "name": "Casey O'Neill ",
+      "name": "Casey O'Neill",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {}
     },
     {
-      "name": "Andrea Lee ",
+      "name": "Andrea Lee",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "3",
@@ -10617,9 +10439,8 @@
       }
     },
     {
-      "name": "Tracy Cortez ",
+      "name": "Tracy Cortez",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "1",
@@ -10681,9 +10502,8 @@
       }
     },
     {
-      "name": "Miranda Maverick ",
+      "name": "Miranda Maverick",
       "rank": "15          ",
-      "rank_change": " ",
       "weightclass": "Women's Flyweight",
       "data": {
         "wins_by_knockout": "1",
@@ -10747,9 +10567,8 @@
   ],
   [
     {
-      "name": "Julianna Peña ",
+      "name": "Julianna Peña",
       "rank": "1          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "3",
@@ -10811,9 +10630,8 @@
       }
     },
     {
-      "name": "Raquel Pennington ",
+      "name": "Raquel Pennington",
       "rank": "2          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "1",
@@ -10875,9 +10693,8 @@
       }
     },
     {
-      "name": "Holly Holm ",
+      "name": "Holly Holm",
       "rank": "3          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "8",
@@ -10939,9 +10756,8 @@
       }
     },
     {
-      "name": "Ketlen Vieira ",
+      "name": "Ketlen Vieira",
       "rank": "4          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "2",
@@ -11003,9 +10819,8 @@
       }
     },
     {
-      "name": "Irene Aldana ",
+      "name": "Irene Aldana",
       "rank": "5          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "8",
@@ -11067,9 +10882,8 @@
       }
     },
     {
-      "name": "Yana Santos ",
+      "name": "Yana Santos",
       "rank": "6          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "7",
@@ -11131,16 +10945,14 @@
       }
     },
     {
-      "name": "Pannie Kianzad ",
+      "name": "Pannie Kianzad",
       "rank": "7          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {}
     },
     {
-      "name": "Macy Chiasson ",
+      "name": "Macy Chiasson",
       "rank": "8          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "3",
@@ -11202,9 +11014,8 @@
       }
     },
     {
-      "name": "Karol Rosa ",
+      "name": "Karol Rosa",
       "rank": "9          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "4",
@@ -11266,9 +11077,8 @@
       }
     },
     {
-      "name": "Mayra Bueno Silva ",
+      "name": "Mayra Bueno",
       "rank": "10          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "1",
@@ -11330,9 +11140,8 @@
       }
     },
     {
-      "name": "Miesha Tate ",
+      "name": "Miesha Tate",
       "rank": "11          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "4",
@@ -11394,9 +11203,8 @@
       }
     },
     {
-      "name": "Julia Avila ",
+      "name": "Julia Avila",
       "rank": "12          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "4",
@@ -11458,9 +11266,8 @@
       }
     },
     {
-      "name": "Norma Dumont ",
+      "name": "Norma Dumont",
       "rank": "13          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {
         "wins_by_knockout": "0",
@@ -11522,16 +11329,14 @@
       }
     },
     {
-      "name": "Chelsea Chandler ",
+      "name": "Chelsea Chandler",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {}
     },
     {
-      "name": "Josiane Nunes ",
+      "name": "Josiane Nunes",
       "rank": "14          ",
-      "rank_change": " ",
       "weightclass": "Women's Bantamweight",
       "data": {}
     }

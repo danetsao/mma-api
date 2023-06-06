@@ -16,3 +16,7 @@ images/
 
 # Ignore client
 client/
+
+# Ignore scraping/__pycache__
+scraping/__pycache__/
+
