@@ -1,4 +1,7 @@
 import express from 'express';
+import { Request, Response } from 'express';
+// import db 
+const pool = require('./db');
 
 const app = express();
 const port = 3000;
@@ -8,13 +11,15 @@ app.get('/', (req: any, res: any) => {
 });
 
 // Get all athlete data
-app.get('/athlete', (req, res) => {
-    // Return all athlete data
-    //Query database for all athlete data.
-    const obj = {
-        data: 'all athlete data'
-    };
-    res.json(obj);
+app.get('/athlete', async (req, res) => {
+    try {
+        const athlete_data = await pool.query('SELECT * FROM top');
+        return res.status(200).json(athlete_data.rows);
+    }
+    catch (err) {
+        console.log(err);
+        return res.status(500).json({ message: 'Internal Server Error' });
+    }
 });
 
 
