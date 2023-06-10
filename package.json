@@ -4,7 +4,8 @@
   "description": "",
   "main": "server/src/index.ts",
   "scripts": {
-    "start": "npx nodemon"
+    "start": "npx nodemon",
+    "start:json": "npx nodemon --exec ts-node server/src_json/index.ts"
   },
   "keywords": [],
   "author": "",
