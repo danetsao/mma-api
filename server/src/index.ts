@@ -27,6 +27,10 @@ app.get('/routes', (req: Request, res: Response) => {
     res.send(all_routes(app));
 });
 
+// Route random
+const randomRoutes = require('./routes/random');
+app.use(randomRoutes);
+
 
 // Listen for incoming requests
 app.listen(port, () => {
