@@ -15,31 +15,15 @@ All endpoints require authentication. You must include a bearer token in the 'Au
 
 ## Group Athletes
 
-### Athletes Collection [/athlete]
+### Athletes Collection [/athletes]
 
 #### List All Athletes [GET]
 
 + Response 200 (application/json)
 
-        [
-            {
-                "first": "leon",
-                "last": "edwards"
-            },
-            {
-                "first": "jon",
-                "jon": "jones
-            }
-        ]
 
-
-### Athletes Collection [/athlete/first-last]
+### Athletes Collection [/athletes/first-last]
 
 #### List Athlete by Name [GET]
 
 + Response 200 (application/json)
-
-        {
-            "first": "leon",
-            "last": "edwards"
-        }

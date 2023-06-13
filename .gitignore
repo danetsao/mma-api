@@ -20,3 +20,5 @@ client/
 # Ignore scraping/__pycache__
 scraping/__pycache__/
 
+# Ignore src_json
+server/src_json/
