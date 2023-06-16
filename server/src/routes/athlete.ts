@@ -10,10 +10,11 @@ router.get("/athletes/:name", async (req: any, res: any) => {
         console.log("Searching for " + name);
         const athlete_data = await pool.query("SELECT * FROM top WHERE name_postfix = $1"
             ,[name])
-        res.json(athlete_data.rows);
+        res.status(200).json(athlete_data.rows);
     }
     catch (err) {
         console.error(err);
+        return res.status(500).json({ message: 'Internal Server Error' });
     }
 })
 

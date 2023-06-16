@@ -1,92 +1,66 @@
 
-# MMA API :martial_arts_uniform: :boxing_glove:
+<div align="center">
+  <h3 href="https://github.com/danetsao/mma-api">
+   MMA API :martial_arts_uniform: :boxing_glove:
+  </h3>
 
-### A REST API for getting current information on mma athletes.
+  <p align="center">
+    A REST API for getting current information on mma athletes.
+    <br />
+    <br />
+    <a href="https://github.com/danetsao/mma-api"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="#deployment">Try it yourself</a>
+    ·
+    <a href="https://github.com/danetsao/mma-api/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/danetsao/mma-api/issues">Request Feature</a>
+  </p>
+</div>
 
-## Table of Contents
-- [Overview](#overview)
-- [To Do](#to-do)
-- [Deployment](#deployment)
-    - [Scraping](#scraping)
-    - [Database](#database)
-    - [API](#api)
-- [Environment Variables](#environment-variables)
-- [Usage](#usage)
-
----
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#overview">Overview</a>
+    </li>
+    <li>
+      <a href="#scraping">Scraping</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#environment-variables">Environment Variables</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="https://github.com/danetsao/mma-api/blob/main/CONTRIBUTING.md">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
 ## Overview
 
-This is an MMA API that scraped data from [ufc.com](https://www.ufc.com/rankings), stores it in a Postgres database, and has a node + express api to give information on the athletes. 
+This is an MMA API that scraped data from [ufc.com](https://www.ufc.com/rankings), stores it in a Postgres database, and has a node + express api to give information on the athletes.
 
-If you have questions, or comments feel free to reach out. I plan to continue working at this and open up some issues for others to contribute with. If you are interested in contributing, see contribution guidelines [here](https://github.com/danetsao/mma-api/blob/main/CONTRIBUTING.md)
+A supplemental [mma-scraping](https://github.com/danetsao/mma-scraping) repository is used to configre the database and can be used for much more.
 
-## To Do
-Right now, we are working on a few different thigns
-- Configuring a database
-- Building a showcase website/frontend
-    - [Nextjs](https://nextjs.org/)
-- Building a community to contribute to the project
-- Add other methods of storing scraped data
-    - Excel
-- Deployment for remote use of api
-    - [AWS RDS](https://aws.amazon.com/rds/) + Server Hosting
-- Addition of other fighting leagues and sports
-    - Would need to reconfig large portion of api & add scraping, but could be cool.
-    - MMA
-        - [ONEFC](https://www.onefc.com/)
-        - [Bellator](https://www.bellator.com/)
-        - [PFL](https://www.pflmma.com/)
-    - Other sports
-        - May be better suited for another project
-        - Boxing
-        - BJJ
+## Scraping
 
-## Deployment
+See [mma-scraping](https://github.com/danetsao/mma-api) to get started scraping mma data.
 
-### Scraping
+You can use this repo to config the database used in this api.
 
-It's easy to get started scraping.
+## Getting Started
 
-```bash
-  git clone https://github.com/danetsao/mma-api.git
-```
-```bash
-  cd scraping
-```
-```bash
-  pip install -r requirements.txt
-```
-I recommend you uncomment the print statements so you can see your data.
-```bash
-  python scrape.py
-```
-For further use such as storage or api, see Environment Variables to continue.
+### Prerequisites
 
-### Database
+prereqs
 
-Here we will config and store the scraped info in a db.
-This assumes you have configured your .env variables and have Postgres installed locally.
-
-```bash
-  cd database
-```
-```bash
-  python db.py
-```
-
-### API
-
-Start in the root directory
-
-```bash
-  npm install
-```
-```bash
-  npm run dev
-```
-Now visit localhost:3000 and use the api.
-## Environment Variables
+### Environment Variables
 
 For specific functionly, you will need to add the following environment variables to your .env file
 
@@ -106,11 +80,17 @@ PostgreSQL Database
 
 If you need help configuring a PostgreSQL database, see [documentation](https://www.postgresql.org/docs/)
 
-## Usage
-There is a wide array of uses for the project. Some ideas:
+### Installations
 
-- Analytics
-- Blog
-- Data science 
+installations
+
+## License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+## Acknowledgments
+
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [valish](https://github.com/valish/mma-api)
 
 [⬆️ Back to Top ⬆️](#table-of-contents)

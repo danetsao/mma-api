@@ -1,5 +1,3 @@
-// Establish connection to database
-// connect the server to database
 require('dotenv').config()
 const Pool = require("pg").Pool;
 

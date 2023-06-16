@@ -15,6 +15,7 @@ router.get("/division/:division_name", async (req: any, res: any) => {
     }
     catch (err) {
         console.error(err);
+        return res.status(500).json({ message: 'Internal Server Error' });
     }
 })
 
@@ -30,6 +31,7 @@ router.get("/division/:division_name/top5", async (req: any, res: any) => {
     }
     catch (err) {
         console.error(err);
+        return res.status(500).json({ message: 'Internal Server Error' });
     }
 })
 
@@ -45,8 +47,10 @@ router.get('/p4p', async (req: any, res: any) => {
     }
     catch (err) {
         console.error(err);
+        return res.status(500).json({ message: 'Internal Server Error' });
     }
 })
 
 
 module.exports = router;
+export {};

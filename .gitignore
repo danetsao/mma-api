@@ -22,3 +22,4 @@ scraping/__pycache__/
 
 # Ignore src_json
 server/src_json/
+server/test
